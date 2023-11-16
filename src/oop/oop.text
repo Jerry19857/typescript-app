@@ -1,0 +1,31 @@
+OOP
+
+Abstraction
+class, object, abstract class, interface
+    -การแบ่งโปรแกรมออกเป็นส่วนๆ โดยแต่ละส่วนจะมีความสัมพันธ์กัน
+    -class คือ ตัวแปรที่เก็บข้อมูลและ method ที่เกี่ยวข้องกับข้อมูลนั้นๆ
+    -object คือ ตัวแปรที่เก็บข้อมูลและ method ที่เกี่ยวข้องกับข้อมูลนั้นๆ
+    -abstract class คือ class ที่มี method ที่ยังไม่ได้ implement หรือเขียนโค้ดเข้าไป
+    -interface คือ class ที่มี method ที่ยังไม่ได้ implement หรือเขียนโค้ดเข้าไปและไม่มี attribute
+
+Encapsulation
+private, public, protected
+    -การปกปิดข้อมูลที่ไม่ต้องการให้คนอื่นเห็น
+    -การเข้าถึงข้อมูลที่เป็น private จะต้องผ่าน public method เท่านั้น
+    -การเข้าถึงข้อมูลที่เป็น protected จะต้องผ่าน public method และ class ลูกเท่านั้น
+    -การเข้าถึงข้อมูลที่เป็น public จะสามารถเข้าถึงได้ทุกคน
+
+Inheritance
+super class, sub class, parent class, child class
+    -การสืบทอดคุณสมบัติจาก class หนึ่งไปยังอีก class หนึ่ง
+    -class ที่สืบทอดจะเรียกว่า sub class หรือ child class
+    -class ที่ถูกสืบทอดจะเรียกว่า super class หรือ parent class
+
+Polymorphism
+override, overload
+    -การสร้าง method ที่มีชื่อเหมือนกันแต่มีการทำงานที่ต่างกัน
+    -override คือการสร้าง method ที่มีชื่อเหมือนกันแต่มีการทำงานที่ต่างกัน
+    -overload คือการสร้าง method ที่มีชื่อเหมือนกันแต่มีการทำงานที่ต่างกันและมี parameter ที่ต่างกัน
+
+
+
