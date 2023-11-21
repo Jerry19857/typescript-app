@@ -8,7 +8,7 @@ class, object, abstract class, interface
     -abstract class คือ class ที่มี method ที่ยังไม่ได้ implement หรือเขียนโค้ดเข้าไป
     -interface คือ class ที่มี method ที่ยังไม่ได้ implement หรือเขียนโค้ดเข้าไปและไม่มี attribute
 
-Encapsulation
+Encapsulation -information hiding, information protection
 private, public, protected
     -การปกปิดข้อมูลที่ไม่ต้องการให้คนอื่นเห็น
     -การเข้าถึงข้อมูลที่เป็น private จะต้องผ่าน public method เท่านั้น
